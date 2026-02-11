@@ -29,12 +29,27 @@ function ServiceCards() {
     {
       id:4,
       title: 'Pre-Wedding',
-      description:'',
-      feature:[''],
-      image:'',
+      description:' Create lasting memories with our pre-wedding photoshoot package, perfect for capturing your love story before the big day.',
+      features: ['2-3 hours session', 'Multiple locations', '100+ edited photos', 'Instant digital copies'],
+      image: '/src/assets/pre-wed.jpg',
       buttonColor:'bg-green-500 hover:bg-green-600'
-    }
-  ]
+    },
+    {
+      id:5,
+      title: 'Family Portraits',
+      description:'Capture the love and connection of your family with our professional family portrait photography package.',
+      features: ['1-2 hours session', 'Multiple poses', '50+ edited photos', 'Digital album included'],
+      image: '/src/assets/Family.png',
+      buttonColor:'bg-blue-500 hover:bg-blue-600'
+    },
+    {
+      id:6,
+      title: 'Event Coverage',
+      description:'Document your special events with our comprehensive event coverage package, perfect for birthdays, anniversaries, and corporate gatherings.',
+      features: ['4-6 hours coverage', 'Candid & posed shots', 'High-resolution digital copies', 'Professional editing'],
+      image: '/src/assets/Event.jpg',
+      buttonColor:'bg-yellow-500 hover:bg-yellow-600'
+    }  ]
 
   return (
     <div className="mt-16">

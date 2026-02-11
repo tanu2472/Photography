@@ -8,6 +8,7 @@ import Home from '../view/Home'
 import About from '../view/About'
 import Contact from '../view/Contact'
 import Footer from '../components/Footer'
+import Gallery from '../view/Gallery'
 const root = createRoot(document.getElementById('root'))
 root.render(
   
@@ -15,6 +16,7 @@ root.render(
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

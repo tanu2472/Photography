@@ -24,6 +24,9 @@ function Navbar() {
             <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
               Home
             </Link>
+            <Link to="/gallery" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
+              Gallery
+            </Link>
             <Link to="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
               About
             </Link>
@@ -62,6 +65,13 @@ function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Home
+            </Link>
+            <Link
+              to="/gallery"
+              className="block px-3 py-2 rounded-md hover:bg-gray-700 transition"
+              onClick={() => setIsOpen(false)}
+            >
+              Gallery
             </Link>
             <Link
               to="/about"
