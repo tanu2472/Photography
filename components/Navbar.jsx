@@ -13,7 +13,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Branding */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <Link to="/" className="text-2xl font-bold text-blue-200 hover:text-blue-300 transition">
               📸 LensAura PhotoGraphy
             </Link>
