@@ -14,8 +14,8 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Branding */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-white">
-              📸 Lensora Photography
+            <Link to="/" className="text-2xl font-bold text-blue-200 hover:text-blue-300 transition">
+              📸 LensAura PhotoGraphy
             </Link>
           </div>
 

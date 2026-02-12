@@ -8,7 +8,7 @@ function ServiceCards() {
       description: 'Capture your special day with our comprehensive wedding photography package including pre-wedding shoots, ceremony, reception, and candid moments.',
       features: ['8-10 hours coverage', 'High-resolution digital copies ', 'Album included', 'Professional editing'],
       image: '/src/assets/wed.webp',
-      buttonColor: 'bg-rose-500 hover:bg-rose-600'
+      buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
     },
     {
       id: 2,
@@ -16,15 +16,15 @@ function ServiceCards() {
       description: 'Celebrate your love story with a personalized engagement photoshoot. Perfect for save-the-dates and pre-wedding announcements.',
       features: ['2-3 hours session', 'Multiple locations', '100+ edited photos', 'Instant digital copies'],
        image: '/src/assets/Engagement.jpeg',
-      buttonColor: 'bg-purple-500 hover:bg-purple-600'
+      buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
     },
     {
       id: 3,
       title: 'Baby Shower',
-      description: 'Preserve precious moments of your special celebration with friends and family during baby shower events.',
+      description: 'Preserve the joy and anticipation of welcoming a new life with our baby shower photography package, capturing candid moments and heartfelt emotions.',
       features: ['3-4 hours coverage', 'Candid & posed shots', 'Gift opening moments', 'Digital album included'],
       image: '/src/assets/baby_shower.jpg',
-      buttonColor: 'bg-orange-500 hover:bg-orange-600'
+     buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
     },
     {
       id:4,
@@ -32,15 +32,15 @@ function ServiceCards() {
       description:' Create lasting memories with our pre-wedding photoshoot package, perfect for capturing your love story before the big day.',
       features: ['2-3 hours session', 'Multiple locations', '100+ edited photos', 'Instant digital copies'],
       image: '/src/assets/pre-wed.jpg',
-      buttonColor:'bg-green-500 hover:bg-green-600'
+     buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
     },
     {
       id:5,
       title: 'Family Portraits',
-      description:'Capture the love and connection of your family with our professional family portrait photography package.',
+      description:'Capture your family\'s unique bond and create timeless memories with our professional family portrait photography package.',
       features: ['1-2 hours session', 'Multiple poses', '50+ edited photos', 'Digital album included'],
       image: '/src/assets/Family.png',
-      buttonColor:'bg-blue-500 hover:bg-blue-600'
+      buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
     },
     {
       id:6,
@@ -48,8 +48,9 @@ function ServiceCards() {
       description:'Document your special events with our comprehensive event coverage package, perfect for birthdays, anniversaries, and corporate gatherings.',
       features: ['4-6 hours coverage', 'Candid & posed shots', 'High-resolution digital copies', 'Professional editing'],
       image: '/src/assets/Event.jpg',
-      buttonColor:'bg-yellow-500 hover:bg-yellow-600'
-    }  ]
+    buttonColor: 'bg-blue-300 hover:bg-blue-400 transition'
+    } 
+ ]
 
   return (
     <div className="mt-16">
@@ -59,9 +60,9 @@ function ServiceCards() {
         {packages.map((pkg) => (
           <div key={pkg.id} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition overflow-hidden">
             {pkg.image ? (
-              <img src={pkg.image} alt={pkg.title} className="w-full h-48 object-cover" />
+              <img src={pkg.image} alt={pkg.title} className="w-full h-75  md:h-56  object-cover" />
             ) : (
-              <div className={`bg-gradient-to-r ${pkg.gradient} h-48`}></div>
+              <div className={`bg-gradient-to-r ${pkg.gradient}h-48 md:h-56  `}></div>
             )}
             <div className="p-6">
               <h4 className="text-2xl font-bold text-gray-900 mb-3">{pkg.title}</h4>

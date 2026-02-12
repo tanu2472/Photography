@@ -7,7 +7,7 @@ function Contact() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">Contact Us</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Get in touch with Lensora Photography for your photography needs.
+          Get in touch with LensAura Photography for your photography needs.
         </p>
         
         <div className="bg-white rounded-lg shadow-lg p-8">
