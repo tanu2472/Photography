@@ -44,7 +44,47 @@ function Contact() {
             </button>
           </form>
         </div>
+
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-semibold mb-2">Studio</h3>
+             <img src="src/assets/studio.png" alt="Studio" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <p className="text-gray-700">LensAura Photography</p>
+            <p className="text-gray-700">123 Elm Street</p>
+            <p className="text-gray-700">Springfield, IL 62701</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-semibold mb-2">Contact</h3>
+              <img src="src/assets/contact-information.png" alt="Contact" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <p className="text-gray-700">Phone: (555) 123-4567</p>
+            <p className="text-gray-700">Email: hello@lensaura.com</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-semibold mb-2">Hours</h3>
+            <p className="text-gray-700">Mon–Fri: 9am – 6pm</p>
+            <p className="text-gray-700">Sat: 10am – 4pm</p>
+            <p className="text-gray-700">Sun: Closed</p>
+
+            <h3 className="text-xl font-semibold mt-4 mb-3">Follow Us On : </h3>
+            <div className="flex flex-wrap gap-3">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow on Instagram" className="inline-flex items-center gap-2 px-3 py-2 bg-white rounded hover:bg-gray-50">
+                <img src="src/assets/instagram.png" alt="" className="w-5 h-5" />
+                <span className="text-amber-500 font-medium">Instagram</span>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow on YouTube" className="inline-flex items-center gap-2 px-3 py-2 bg-white rounded hover:bg-gray-50">
+                <img src="src/assets/youtube.png" alt="" className="w-5 h-5" />
+                <span className="text-amber-500 font-medium">YouTube</span>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow on Facebook" className="inline-flex items-center gap-2 px-3 py-2 bg-white rounded hover:bg-gray-50">
+                <img src="src/assets/facebook.png" alt="" className="w-5 h-5" />
+                <span className="text-amber-500 font-medium">Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
+      
     </div>
   )
 }
