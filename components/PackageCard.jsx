@@ -14,7 +14,7 @@ function PackageCard() {
       image: '/src/assets/wed.webp',
       description: 'Capture your special day with our comprehensive wedding photography package including pre-wedding shoots, ceremony, reception, and candid moments.',
       features: ['8-10 hours coverage', 'High-resolution digital copies', 'Album included', 'Professional editing'],
-      price: '$2,500',
+      price: '$3,500',
       details: 'Our wedding package includes full-day coverage with two photographers, professional editing, and a beautifully crafted album. We will capture every precious moment of your big day, from the intimate pre-wedding shoots to the grand ceremony and lively reception. Our team is dedicated to providing you with stunning photos that tell the story of your love and celebration.' 
     },
     2: {
@@ -67,7 +67,7 @@ function PackageCard() {
       <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
         <Link to="/" className="text-blue-500 hover:text-blue-600 mb-6 inline-block"><img src='/src/assets/arrow.png' alt='Back' className='w-6 h-6 mr-2 inline-block'></img> <b>Back to Packages</b></Link>
         
-        <p className="text-gray-500 mb-4">Package ID: {packageId}</p>
+        
         <h1 className="text-4xl font-bold text-gray-900 mb-4">{packageData.title}</h1>
         {packageData.image && (
             <img src={packageData.image} alt={packageData.title} className="w-full h-96 object-cover rounded-lg mb-6" />

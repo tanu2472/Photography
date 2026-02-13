@@ -15,7 +15,7 @@ function Navbar() {
           {/* Logo/Branding */}
           <div className="shrink-0">
             <Link to="/" className="text-2xl font-bold text-blue-200 hover:text-blue-300 transition">
-              📸 LensAura PhotoGraphy
+             <img src="src/assets/camera.png" alt="LensAura Logo" className="w-10 h-10 mr-2 inline-block" /> LensAura PhotoGraphy
             </Link>
           </div>
 
