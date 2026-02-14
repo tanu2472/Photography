@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { useParams, useSearchParams, useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 
 function PackageCard() {
   const { id } = useParams()
   const [searchParams] = useSearchParams()
+  const navigate = useNavigate()
   const queryId = searchParams.get('id')
   const packageId = id || queryId
 
@@ -99,7 +100,10 @@ function PackageCard() {
           <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-600">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Package Details</h3>
             <p className="text-gray-700 mb-4">{packageData.details}</p>
-            <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded-lg transition font-semibold">
+            <button 
+              onClick={() => navigate(`/booking/${packageId}`)}
+              className="bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded-lg transition font-semibold"
+            >
               Book Now
             </button>
           </div>

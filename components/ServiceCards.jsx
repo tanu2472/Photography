@@ -31,7 +31,7 @@ function ServiceCards() {
     {
       id:4,
       title: 'Pre-Wedding',
-      description:' Create lasting memories with our pre-wedding photoshoot package, perfect for capturing your love story before the big day.',
+      description:'Create lasting memories with our pre-wedding photography package, perfect for capturing the love and excitement leading up to your big day.',
       features: ['2-3 hours session', 'Multiple locations', '100+ edited photos', 'Instant digital copies'],
       image: '/src/assets/pre-wed.jpg',
      buttonColor: 'bg-blue-500 hover:bg-blue-600 transition'
@@ -39,7 +39,7 @@ function ServiceCards() {
     {
       id:5,
       title: 'Family Portraits',
-      description:'Capture your family\'s unique bond and create timeless memories with our professional family portrait photography package.',
+      description:' Celebrate your family bonds with our family portrait package, perfect for capturing timeless moments and creating cherished memories for years to come.',
       features: ['1-2 hours session', 'Multiple poses', '50+ edited photos', 'Digital album included'],
       image: '/src/assets/Family.png',
       buttonColor: 'bg-blue-500 hover:bg-blue-600 transition'

@@ -10,6 +10,7 @@ import Contact from '../view/Contact'
 import Footer from '../components/Footer'
 import Gallery from '../view/Gallery'
 import PackageCard from '../components/PackageCard'
+import Booking from '../view/Booking'
 
 const root = createRoot(document.getElementById('root'))
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/PackageCard/:id" element={<PackageCard />} />
+        <Route path="/booking/:id" element={<Booking />} />
       </Routes>
       <Footer />
     </BrowserRouter>
