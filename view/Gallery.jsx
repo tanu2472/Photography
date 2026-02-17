@@ -10,7 +10,7 @@ function Gallery() {
             <img src="https://tse4.mm.bing.net/th/id/OIP.fsT0XypvND89Y5ittjoy2AHaJQ?pid=ImgDet&w=474&h=592&rs=1&o=7&rm=3" alt="Gallery Image 3" className="w-full h-95 md:h-80 object-cover rounded-lg shadow-lg" />
             <img src="https://vinusimages.com/wp-content/uploads/2024/12/best-maternity-photographer-in-bangalore-at-vinus-images.jpg" alt="Gallery Image 4" className="w-full h-95 md:h-80 object-cover rounded-lg shadow-lg" />
             <img src="https://i.pinimg.com/originals/f0/2f/1b/f02f1b59de35082ce3cd2c022afe320c.jpg" alt="Gallery Image 5" className="w-full h-95 md:h-80 object-cover rounded-lg shadow-lg" />
-            <img src="https://images.unsplash.com/photo-1615555896813-401d84a0d737?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FyZWUlMjBwaG90b3Nob290fGVufDB8fDB8fHww&w=1000&q=80" alt="Gallery Image 6" className="w-full h-95 md:h-80 object-cover rounded-lg shadow-lg" />
+            <img src="https://static.wixstatic.com/media/89e88a_969bc99c7ebc42c0810591a5c06fac15~mv2_d_7920_5269_s_4_2.jpg/v1/fit/w_1045,h_790,q_73,usm_8.40_0.13_0.07/89e88a_969bc99c7ebc42c0810591a5c06fac15~mv2_d_7920_5269_s_4_2.jpg" alt="Gallery Image 6" className="w-full h-95 md:h-80 object-cover rounded-lg shadow-lg" />
         </div>
     </div>
   )

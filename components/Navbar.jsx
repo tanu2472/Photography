@@ -21,16 +21,16 @@ function Navbar() {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-1">
-            <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
+            <Link to="/" className="px-3 py-2 rounded-md text-md font-medium hover:bg-gray-700 transition">
               Home
             </Link>
-            <Link to="/gallery" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
+            <Link to="/gallery" className="px-3 py-2 rounded-md text-md font-medium hover:bg-gray-700 transition">
               Gallery
             </Link>
-            <Link to="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
+            <Link to="/about" className="px-3 py-2 rounded-md text-md font-medium hover:bg-gray-700 transition">
               About
             </Link>
-            <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition">
+            <Link to="/contact" className="px-3 py-2 rounded-md text-md font-medium hover:bg-gray-700 transition">
               Contact
             </Link>
           </div>
